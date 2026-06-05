@@ -1,0 +1,43 @@
+.contact {
+  padding: 40px 24px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .contact-wrapper {
+    flex-direction: row;
+  }
+
+  .contact-info,
+  .contact-hours {
+    flex: 1;
+  }
+}
+
+.contact-info p,
+.contact-hours p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #333333;
+  margin: 0 0 8px;
+}
+
+.contact-info a,
+.contact-hours a {
+  color: #003865;
+  font-weight: 500;
+}
+
+.contact-hours strong {
+  display: block;
+  color: #003865;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}

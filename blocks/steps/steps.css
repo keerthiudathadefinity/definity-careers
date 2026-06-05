@@ -1,0 +1,54 @@
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px 24px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .steps {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.steps .step {
+  flex: 1;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px 20px 20px;
+  position: relative;
+}
+
+.steps .step-number {
+  background-color: #003865;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.steps .step p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
+}
+
+.steps .step strong,
+.steps .step h2,
+.steps .step h3 {
+  font-size: 1rem;
+  color: #003865;
+  margin: 0 0 8px;
+  display: block;
+}

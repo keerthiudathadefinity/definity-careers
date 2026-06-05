@@ -1,0 +1,32 @@
+.downloads {
+  padding: 32px 24px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.downloads .download-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 0;
+}
+
+.downloads .download-item:last-child {
+  border-bottom: none;
+}
+
+.downloads .download-item a {
+  color: #003865;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.downloads .download-item a:hover {
+  text-decoration: underline;
+  color: #005bac;
+}
+
+.downloads .download-icon {
+  font-size: 0.85rem;
+  margin-right: 6px;
+  color: #f5a623;
+}
