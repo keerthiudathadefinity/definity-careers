@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width >= 768px) {
   .steps {
     flex-direction: row;
     align-items: flex-start;
@@ -25,7 +25,7 @@
 
 .steps .step-number {
   background-color: #003865;
-  color: #ffffff;
+  color: #fff;
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -40,7 +40,7 @@
 .steps .step p {
   font-size: 0.9rem;
   line-height: 1.6;
-  color: #333333;
+  color: #333;
   margin: 0;
 }
 

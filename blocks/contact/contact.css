@@ -10,7 +10,7 @@
   gap: 32px;
 }
 
-@media (min-width: 768px) {
+@media (width >= 768px) {
   .contact-wrapper {
     flex-direction: row;
   }
@@ -25,7 +25,7 @@
 .contact-hours p {
   font-size: 0.95rem;
   line-height: 1.8;
-  color: #333333;
+  color: #cd0b0b;
   margin: 0 0 8px;
 }
 

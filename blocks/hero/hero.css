@@ -1,6 +1,6 @@
 .hero {
   background-color: #003865;
-  color: #ffffff;
+  color: #fff;
   padding: 48px 24px;
   text-align: center;
 }
@@ -9,7 +9,7 @@
 .hero .hero-headline p {
   font-size: 2rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #fff;
   margin: 0 0 16px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -17,7 +17,7 @@
 
 .hero .hero-notice {
   background-color: #f5a623;
-  color: #222222;
+  color: #222;
   border-radius: 6px;
   padding: 16px 24px;
   max-width: 720px;
